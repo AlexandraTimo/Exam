@@ -1,0 +1,178 @@
+
+    .main{
+    height: auto;
+    }
+
+.Leftbox{
+width: 400px;
+height: auto;
+}
+
+
+.Sticky{
+    position: sticky;
+    top: 5px; 
+    }
+
+.List{
+list-style-type: none;
+}
+
+li{
+color: gray;
+}
+
+.Dash:hover{
+background-color: rgb(102, 32, 65);
+width: 250px;
+padding: 15px;
+color: white;
+}
+
+
+.Company{
+    border-bottom: 1px solid gray;
+    padding: 15px 30px ;
+    margin: auto;
+    }
+
+    .Headicon{
+    width: 30px;
+    vertical-align: bottom;
+    }
+    
+
+.Rightbox{
+background-color: rgb(205, 211, 211);
+border-left: 3px solid gray;
+}
+
+.Burger {
+    margin: 0 5px;
+    flex: 0 1 auto;
+    /* отступ между флекс боксами */
+    }
+    
+
+.Firstbox{
+border: 1px solid gray;
+background-color: white;
+box-shadow: 3px 3px gray;
+}
+
+.Get{
+    padding: 2px;
+    padding-left: 7px;
+    color: gray;
+    }
+
+    .Gets{
+border-top: 1px solid gray;
+
+ }
+
+.Dataicon{
+height: 60px;
+width: 60px;
+}
+
+ .Data,.Shop,.Tag,.Paperplane{
+background-color: green;
+padding: 15px;
+position: relative;
+top: -30px;
+left: 20px;
+display: inline-block;
+height: 90px
+ }
+.Shop{
+background-color: rgb(226, 163, 26);
+}
+
+.Tag{
+    background-color: rgb(25, 25, 100);
+}
+
+.Paperplane{
+    background-color: rgb(102, 32, 65);
+}
+
+/* Графики */
+.Graphicsicon{
+width: 100%;
+height: 100%;
+}
+
+.Graphics,.GraphicsSecond,.GraphicsThird{
+background-color: green;
+padding: 30px;
+position: relative;
+top: -30px;
+left: 1px;
+}
+
+.GraphicsSecond{
+background-color: rgb(226, 163, 26);
+}
+
+.GraphicsThird{
+    background-color: rgb(25, 25, 100);
+}
+    
+    
+.Label{
+border-bottom: 1px solid gray;
+}
+   
+/* оранжевая табличка с Task */
+.Taskbox{
+    background-color: rgb(226, 163, 26);
+    padding: 30px  ;
+    position: relative;
+    top:-30px;
+    width: 97%;
+    left: 25px;
+    }
+    
+
+.Taskicon{
+width: 25px;
+height: 25px;
+vertical-align:middle;
+}
+
+.Bugs:hover{
+background-color: rgba(238, 206, 136, 0.699);;
+}
+
+.YellowTable{
+border-bottom: 1px solid gray;
+}
+
+
+/* end   */
+
+/* Footer */
+.Footer{
+border-top: 1px solid gray;
+}
+.icon{
+    background-image: url(img/dashboard_gray.svg);
+    
+    width: 30px;
+    
+    top: 10px;
+    background-size: 30px;
+    }
+    .Dashboard:hover{
+    background-color: rgb(170, 73, 73);
+    padding:  8px;
+    color: white;
+    background-image: url(img/dashboard_white.svg) ;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    vertical-align: middle;
+    background-position: 20px;
+    }
+    
+    
